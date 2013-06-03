@@ -1,0 +1,30 @@
+/* css by eddie */
+
+#bac-pal #head {
+  width: 180px;
+  height: 180px;
+  background-image: url('smile.png');
+  background-color: #bf3633;
+}
+#bac-pal #body {
+  width: 180px;
+  height: 298px;
+  background-image: url('ticks.png');
+  background-repeat: no-repeat;
+  background-color: #D7D7D7;
+}
+#bac-pal #body #waves {
+  width: 180px;
+  height: 22px;
+  background-image: url('waves.png');
+}
+#bac-pal #body #fill {
+  background-color: #ffb400;
+  width: 180px;
+  height: 200px;
+}
+
+
+
+
+
