@@ -30,12 +30,12 @@
   height: 100%;
 }
 
-#add-beer {
+#add-beer, #add-shot {
   cursor: pointer;
   -webkit-transition: box-shadow 0.1s;
   transition:         box-shadow 0.1s;
 }
-#add-beer:hover {
+#add-beer:hover, #add-shot:hover {
   -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,0.3);
   box-shadow:         0px 0px 12px rgba(0,0,0,0.3);
 }

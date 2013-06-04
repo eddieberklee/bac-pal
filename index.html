@@ -24,12 +24,16 @@
     </div><!-- /#body -->
   </div><!-- /#bac-pal -->
   <img id="add-beer" src="add_beer.png" alt="icon from thenounproject.org" style="position:relative;top:-78px;left:185px;"/>
+  <img id="add-shot" src="add_shot.png" alt="icon from thenounproject.org" style="position:relative;top:-185px;left:81px;"/>
 </div><!-- /#container -->
 <script src="jquery-1.8.2.min.js"></script>
 <script>
   $(function() {
     $("#add-beer").click(function() {
-      $("#fill-container").css('height',parseInt($("#fill-container").css('height'))+20);
+      $("#fill-container").css('height',parseInt($("#fill-container").css('height'))+15);
+    });
+    $("#add-shot").click(function() {
+      $("#fill-container").css('height',parseInt($("#fill-container").css('height'))+30);
     });
   });
 </script>
