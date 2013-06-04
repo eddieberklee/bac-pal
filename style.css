@@ -9,9 +9,15 @@
 #bac-pal #body {
   width: 180px;
   height: 298px;
+  position: relative;
   background-image: url('ticks.png');
   background-repeat: no-repeat;
   background-color: #D7D7D7;
+}
+#bac-pal #body #fill-container {
+  width: 180px;
+  position: absolute;
+  bottom: 0;
 }
 #bac-pal #body #waves {
   width: 180px;
@@ -21,9 +27,8 @@
 #bac-pal #body #fill {
   background-color: #ffb400;
   width: 180px;
-  height: 200px;
+  height: 100%;
 }
-
 
 
 

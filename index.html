@@ -15,15 +15,27 @@
     <div id="head">
     </div><!-- /#head -->
     <div id="body">
-      <div id="waves">
-      </div>
-      <div id="fill">
-      </div>
+      <div id="fill-container" style="height:100px;">
+        <div id="waves">
+        </div>
+        <div id="fill">
+        </div>
+      </div><!-- /#fill-container -->
     </div><!-- /#body -->
   </div><!-- /#bac-pal -->
+  <img id="add-beer" src="add_beer.png" alt="icon from thenounproject.org" style="position:relative;top:-78px;left:185px;"/>
 </div><!-- /#container -->
+<script src="jquery-1.8.2.min.js"></script>
+<script>
+  $(function() {
+    $("#add-beer").click(function() {
+      $("#fill-container").css('height',parseInt($("#fill-container").css('height'))+20);
+    });
+  });
+</script>
 </body>
 </html>
+
 
 
 
